@@ -1380,4 +1380,7 @@ p {
         margin-bottom: 5px; } }
 @media screen and (max-width: 320px) {
   .header .header-text h2 {
-    font-size: 18pt; } }
+    font-size: 18pt; }
+
+  h3 {
+    font-size: 25pt; } }
