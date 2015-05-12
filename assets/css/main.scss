@@ -2,7 +2,7 @@
 @import "bourbon";
 
 $max-width: 1020px;
-$visual-grid: true !default;
+$visual-grid: false !default;
 $visual-grid-color: #333 !default;
 
 @import "neat";
@@ -813,6 +813,7 @@ $menu-height: 70px;
 			font-size: 11pt;
 			margin: 0;
 			color: #fff;
+			line-height: 1.5;
 		}
 	}
 }
