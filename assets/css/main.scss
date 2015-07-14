@@ -789,7 +789,7 @@ $menu-height: 70px;
 	}
 
 	.team-member {
-		@include span-columns(3 of 12);
+		@include span-columns(1 of 5);
 		&:last-child {
 			@include omega;
 		}
@@ -799,12 +799,11 @@ $menu-height: 70px;
 
 		img {
 			border-radius: 100%;
-			width: 150px;
-			height: 150px;
+			
 		}
 
 		h4 {
-			font-size: 15pt;
+			font-size: 13pt;
 			margin-bottom: 0;
 			color: #fff;
 		}

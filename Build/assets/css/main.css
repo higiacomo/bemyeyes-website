@@ -1135,8 +1135,8 @@ p {
   .team-container .team-member {
     float: left;
     display: block;
-    margin-right: 2.35765%;
-    width: 23.23176%;
+    margin-right: 5.85151%;
+    width: 15.3188%;
     text-align: center;
     margin-bottom: 50px; }
     .team-container .team-member:last-child {
@@ -1144,11 +1144,9 @@ p {
     .team-container .team-member:last-child {
       margin-right: 0; }
     .team-container .team-member img {
-      border-radius: 100%;
-      width: 150px;
-      height: 150px; }
+      border-radius: 100%; }
     .team-container .team-member h4 {
-      font-size: 15pt;
+      font-size: 13pt;
       margin-bottom: 0;
       color: #fff; }
     .team-container .team-member p {
