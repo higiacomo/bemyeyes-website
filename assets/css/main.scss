@@ -2,8 +2,8 @@
 @import "bourbon";
 
 $max-width: 1020px;
-// $visual-grid: true !default;
-// $visual-grid-color: #333 !default;
+$visual-grid: false !default;
+$visual-grid-color: #333 !default;
 
 @import "neat";
 @import "animations";
@@ -773,6 +773,50 @@ $menu-height: 70px;
 	}
 }
 
+.team-container {
+	@include linear-gradient(135deg, #3c8eb3, #1a395c);
+	padding: 65px 0 0;
+	margin-bottom: 50px;
+
+	h3 {
+		text-align: center;
+		color: #fff;
+		margin-top: 0
+	}
+	
+	br {
+		display: none;
+	}
+
+	.team-member {
+		@include span-columns(1 of 5);
+		&:last-child {
+			@include omega;
+		}
+
+		text-align: center;
+		margin-bottom: 50px;
+
+		img {
+			border-radius: 100%;
+			
+		}
+
+		h4 {
+			font-size: 13pt;
+			margin-bottom: 0;
+			color: #fff;
+		}
+
+		p {
+			font-size: 11pt;
+			margin: 0;
+			color: #fff;
+			line-height: 1.5;
+		}
+	}
+}
+
 
 .help {
 	.narrow {
@@ -961,6 +1005,7 @@ $menu-height: 70px;
 	}
 }
 
+
 @include media(max-width 825px) {
 	.details {
 		.aside {
@@ -1002,6 +1047,11 @@ $menu-height: 70px;
 		br {
 			display: none;
 		}
+	}
+
+	.team-container .team-member {
+		@include span-columns(6 of 12);
+		&:nth-child(even) { @include omega; }
 	}
 
 	.social {
@@ -1324,6 +1374,32 @@ $menu-height: 70px;
 			&.twitter {
 				margin-top: 5px;
 				margin-bottom: 5px;
+			}
+		}
+	}
+
+	.team-container {
+		br {
+			display: inline;
+		}
+
+		h3 {
+			font-size: 21pt;
+		}
+
+		.team-member {
+			@include span-columns(12 of 12);
+			@include omega;		
+			
+			margin-bottom: 25px;
+			
+			img {
+				width: 100px;
+				height: 100px;
+			}
+
+			h4 {
+				margin-top: 5px;
 			}
 		}
 	}

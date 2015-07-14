@@ -1119,6 +1119,42 @@ p {
   .footer .bsection img {
     max-width: 100% !important; }
 
+.team-container {
+  background-color: #3c8eb3;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3c8eb3), color-stop(100%, #1a395c));
+  background-image: -webkit-linear-gradient(-405deg, #3c8eb3, #1a395c);
+  background-image: linear-gradient(135deg,#3c8eb3, #1a395c);
+  padding: 65px 0 0;
+  margin-bottom: 50px; }
+  .team-container h3 {
+    text-align: center;
+    color: #fff;
+    margin-top: 0; }
+  .team-container br {
+    display: none; }
+  .team-container .team-member {
+    float: left;
+    display: block;
+    margin-right: 5.85151%;
+    width: 15.3188%;
+    text-align: center;
+    margin-bottom: 50px; }
+    .team-container .team-member:last-child {
+      margin-right: 0; }
+    .team-container .team-member:last-child {
+      margin-right: 0; }
+    .team-container .team-member img {
+      border-radius: 100%; }
+    .team-container .team-member h4 {
+      font-size: 13pt;
+      margin-bottom: 0;
+      color: #fff; }
+    .team-container .team-member p {
+      font-size: 11pt;
+      margin: 0;
+      color: #fff;
+      line-height: 1.5; }
+
 .help .narrow {
   float: left;
   display: block;
@@ -1281,6 +1317,16 @@ p {
 
   .testemonials br {
     display: none; }
+
+  .team-container .team-member {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%; }
+    .team-container .team-member:last-child {
+      margin-right: 0; }
+    .team-container .team-member:nth-child(even) {
+      margin-right: 0; }
 
   .social .wide, .social .narrow {
     float: left;
@@ -1526,7 +1572,26 @@ p {
       text-align: center; }
       .share .button.twitter {
         margin-top: 5px;
-        margin-bottom: 5px; } }
+        margin-bottom: 5px; }
+
+  .team-container br {
+    display: inline; }
+  .team-container h3 {
+    font-size: 21pt; }
+  .team-container .team-member {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 25px; }
+    .team-container .team-member:last-child {
+      margin-right: 0; }
+    .team-container .team-member img {
+      width: 100px;
+      height: 100px; }
+    .team-container .team-member h4 {
+      margin-top: 5px; } }
 @media screen and (max-width: 370px) {
   .header div.stats .stat .value {
     font-size: 18pt; } }
