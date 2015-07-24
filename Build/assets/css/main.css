@@ -550,7 +550,7 @@ p {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 23.23176%;
+    width: 14.70196%;
     padding-top: 8px; }
     .menu .aside:last-child {
       margin-right: 0; }
@@ -558,7 +558,7 @@ p {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 74.41059%;
+    width: 82.94039%;
     margin-right: 0;
     height: 70px;
     line-height: 70px; }
@@ -572,6 +572,8 @@ p {
       font-size: 16pt;
       font-weight: 300;
       margin-left: 50px; }
+    .menu .bside br {
+      display: none; }
 
 .video-wrapper {
   position: absolute;
@@ -1591,7 +1593,13 @@ p {
       width: 100px;
       height: 100px; }
     .team-container .team-member h4 {
-      margin-top: 5px; } }
+      margin-top: 5px; }
+
+  .menu .bside .links {
+    line-height: 36px;
+    font-size: 11pt; }
+  .menu .bside br {
+    display: block; } }
 @media screen and (max-width: 370px) {
   .header div.stats .stat .value {
     font-size: 18pt; } }

@@ -114,12 +114,12 @@ $menu-height: 70px;
 	color: #fff;
 
 	.aside {
-		@include span-columns(3 of 12);
+		@include span-columns(2 of 12);
 		padding-top: 8px;
 	}
 
 	.bside {
-		@include span-columns(9 of 12);
+		@include span-columns(10 of 12);
 		@include omega();
 
 		height: $menu-height;
@@ -135,6 +135,11 @@ $menu-height: 70px;
 			font-size: 16pt;
 			font-weight: 300;
 			margin-left: 50px;
+		}
+
+		// do not go on 2 lines on large screens
+		br {
+			display: none;
 		}
 	}
 }
@@ -1401,6 +1406,19 @@ $menu-height: 70px;
 			h4 {
 				margin-top: 5px;
 			}
+		}
+	}
+
+	.menu .bside {
+
+		.links {
+			line-height: 36px;
+			font-size: 11pt;
+		}
+
+		// We go on a 2 lines navigation for smaller screens
+		br {
+			display: block;
 		}
 	}
 }
